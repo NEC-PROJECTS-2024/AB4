@@ -1,0 +1,31 @@
+@font-face {
+font-family: 'lorabold';
+font-weight: normal;
+font-style: normal;
+src:url('../fonts/lora-bold.woff2') format('woff2');
+}
+
+
+/* CSS for Form Alignment */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 200px; /* Adjust this value as needed */
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: calc(100% - 200px); /* Adjust this value to match the label width */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    display: block;
+    margin-top: 15px;
+}
